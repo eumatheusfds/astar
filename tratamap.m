@@ -20,7 +20,7 @@ robotRadius = 0.1;
 mapInflated = copy(gridmap);
 inflate(mapInflated,robotRadius);
 show(mapInflated);
-figure
+%figure
 
 matrix = occupancyMatrix(mapInflated); %% o mapa aqui volta a ser representado em pixels
 matrix = flip(matrix);
